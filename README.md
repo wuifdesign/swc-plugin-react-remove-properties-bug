@@ -1,0 +1,1 @@
+# swc-plugin-react-remove-properties-bug
