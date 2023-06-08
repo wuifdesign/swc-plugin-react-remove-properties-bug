@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "importSource": "preact"
+      }
+    },
+    "experimental": {
+      "plugins": [["swc-plugin-react-remove-properties", {}]]
+    }
+  }
+}
